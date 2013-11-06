@@ -16,48 +16,8 @@
     </head>
     <body>
     <div class="container">
-        
         <div class="row" ng-controller="AppCtrl">
-
             <h1>AngulAir</h1>
-
-            <!-- CHAPTER 2 -->
-
-            <!-- <ul ng-repeat="airport in airports"> -->
-            <!--     <li>{{airport.code}}</li> -->
-            <!--     <li>{{airport.city}}</li> -->
-            <!--     <li>{{airport.name}}</li> -->
-            <!-- </ul> -->
-
-            <!-- <div class="col-md-6"> -->
-                
-            <!--     <ul> -->
-            <!--         <li ng-repeat="airport in airports"> -->
-            <!--             <a href="" ng-click="setAirport(airport.code)">{{airport.code}} - {{airport.name}}</a> - <a href="" ng-click="editAirport(airport.code)">Edit</a> -->
-            <!--         </li> -->
-            <!--     </ul> -->
-
-                <!-- <p ng-show="currentAirport">Current airport: {{currentAirport.name}}</p> -->
-
-            <!-- </div> -->
-
-            <!-- <div class="col-md-6" ng-include src="sidebarURL"></div> -->
-            <!-- <div class="col-md-6" ng-include src="editURL"></div> -->
-
-            <!-- <ng-include class="col-md-4" src="sidebarURL"></ng-include> -->
-
-            <!-- <ul> -->
-            <!--     <li ng-repeat="airport in airports">{{airport.code}} - {{airport.city | uppercase}}</li> -->
-            <!-- </ul> -->
-
-            <!-- <p>{{'128' | currency}}</p> -->
-
-            <!-- <p>{{airports | json}}</p> -->
-
-            <!-- END CHAPTER 2 -->
-
-
-            <!-- CHAPTER 3 -->
             <ul class="nav nav-pills">
                 <li ng-class="destinationsActive">
                     <a href="#">Destinations</a>
@@ -69,12 +29,8 @@
                     <a href="#/reservations">Reservations</a>
                 </li>
             </ul>
-
             <div ng-view></div>
-
-            <!-- END CHAPTER 3 -->
         </div>
-
     </div>
     </body>
 </html>
