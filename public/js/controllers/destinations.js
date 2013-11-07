@@ -2,7 +2,6 @@ function DestinationsCtrl ($scope, Airport) {
     $scope.setActive('destinations');
 
     $scope.sidebarURL = 'partials/airport.html';
-    $scope.editURL = 'partials/airport_edit.html';
     $scope.currentAirport = null;
 
     $scope.setAirport = function (code) {
