@@ -9,11 +9,5 @@ function DestinationsCtrl ($scope, Airport) {
         $scope.currentAirport = Airport.get({airportCode: code});
     };
 
-    $scope.editing = null;
-
-    $scope.editAirport = function (code) {
-        $scope.editing = Airport.get({airportCode: code});
-    };
-
     $scope.airports = Airport.query();
 }
